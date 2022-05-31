@@ -5,6 +5,18 @@
     background-color: rgb(54, 133, 165);
     
 }
+.ui-menu-color-home {
+    background-color: rgb(207, 106, 5);
+}
+.ui-menu-color-resume {
+    background-color: rgb(186, 78, 78);
+}
+.ui-menu-color-contact {
+    background-color: rgb(134, 140, 26);
+}
+.ui-menu-color-download {
+    background-color: rgb(209, 45, 94);
+}
 /*....Header...*/
 header {
     margin: 0;
@@ -36,5 +48,41 @@ font-size: 28px;
 margin-top: 20px;
 margin-bottom: 90px;
 color: white;
+}
+.list-inline-item:not(:last-child){
+    margin: 0;
+}
+.menucontainer{
+    font-size: 0;
+}
+#nav li {
+font-size: 14px;
+padding: 0;
+}
+.menuitem{
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    height: 120px;
+}
+.menuitem a i {
+    padding-top: 20px;
+    display: block;
+    color: beige;
+    font-size: 26px;
+}
+.menuitem span {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-weight: 300;
+    font-size: 14px;
 
 }
