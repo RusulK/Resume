@@ -5,6 +5,9 @@
     background-color: rgb(54, 133, 165);
     
 }
+.bg-color-three-reasons{
+    background-color: white;
+}
 .ui-menu-color-home {
     background-color: rgb(207, 106, 5);
 }
@@ -17,6 +20,7 @@
 .ui-menu-color-download {
     background-color: rgb(209, 45, 94);
 }
+
 /*....Special/margins/padding/text...*/
 h1,h2,h3.h4 {
     margin: 0;
@@ -31,6 +35,20 @@ h1,h2,h3.h4 {
 }
 .inline-block {
     display: inline-block;
+}
+.row-table {
+    display:table ;
+}
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 /*....Header...*/
 header {
@@ -132,11 +150,11 @@ footer{
     padding-bottom: 15px;
 }
 .social-links li a i {
-width: 32px;
-height: 32px;
-padding: 12px 0;
+width: 35px;
+height: 35px;
+padding:10px;
 border-radius: 50%;
-font-size: 15px;
+font-size: 16px;
 line-height: 7px;
 text-align: center;
 color: beige;
