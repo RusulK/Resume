@@ -170,3 +170,11 @@ transition: all 0.35s ease-in-out;
 #footer-details{
     padding: 20px;
 }
+/*....Three-Reasons...*/
+.three-reasons-icon {
+    font-size: 25px;
+    color:rgb(213, 104, 9);
+}
+.three-reaons-heading {
+    margin-bottom: 15px;
+}
