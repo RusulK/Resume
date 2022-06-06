@@ -20,6 +20,9 @@
 .ui-menu-color-download {
     background-color: rgb(209, 45, 94);
 }
+.bg-color-personal-info {
+    background-color: #dcf3fa;
+}
 
 /*....Special/margins/padding/text...*/
 h1,h2,h3.h4 {
@@ -177,4 +180,54 @@ transition: all 0.35s ease-in-out;
 }
 .three-reaons-heading {
     margin-bottom: 15px;
+}
+/*....Personal-Info...*/
+
+.personal-info-item {
+    margin-bottom: 15px;
+    display: block;
+    clear: both;
+}
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+    display: inline-block;
+}
+.personal-info-item .key p,
+.personal-info-item .value p{
+    margin: 0;
+}
+.personal-info-item .key{
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+.personal-info-item .key p{
+    font-weight: 700;
+}
+.personal-info-item .value{
+    position: relative;
+    width: 60%;
+}
+
+/*....skills...*/
+
+.progress {
+    position: relative;
+    line-height: normal;
+    height: 25px;
+    margin-bottom: 4px;
+}
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: beige;
+    background-color: rgba(25, 25, 25, 0.2);
+    height: inherit;
+}
+.progress-section {
+    margin: 40px 20px;
 }
