@@ -26,6 +26,9 @@
 .bg-color-work-history {
     background-color: rgb(186, 78, 78);
 }
+.bg-color-contact {
+    background-color: #dcf3fa;
+}
 
 /*....Special/margins/padding/text...*/
 h1,h2,h3.h4 {
@@ -278,4 +281,33 @@ transition: all 0.35s ease-in-out;
 }
 .history-items {
     margin-bottom: 30px;
+}
+
+/*....Contact Form...*/
+.contact-heading{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: beige;
+    background-color: rgb(225, 58, 66);
+
+}
+/*....Media Queries...*/
+@media (min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+}
 }
